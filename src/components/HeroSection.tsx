@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Clock, CheckCircle } from "lucide-react";
+import { ArrowRight, Clock, CheckCircle } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -22,14 +22,6 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="animate-fade-in-up opacity-0 mb-8">
-            <span className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-sm text-muted-foreground">
-              <Sparkles className="w-4 h-4 text-primary" />
-              Tillgängligt för nya kliniker just nu
-            </span>
-          </div>
-
           {/* Headline */}
           <h1 className="animate-fade-in-up opacity-0 animation-delay-200 font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
             Undvik att missa kunder{" "}
