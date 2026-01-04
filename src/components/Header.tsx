@@ -45,12 +45,6 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Link 
-              to="/integritetspolicy" 
-              className="hidden lg:inline-block text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm"
-            >
-              Integritetspolicy
-            </Link>
             <a 
               href="#kontakt" 
               className="gradient-primary text-primary-foreground px-5 py-2.5 rounded-lg font-medium text-sm shadow-glow hover:shadow-elevated hover:scale-[1.02] transition-all duration-300"
