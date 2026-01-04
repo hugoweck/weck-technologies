@@ -22,7 +22,7 @@ const ContactSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-16">
           <a 
-            href="https://calendly.com" 
+            href="https://calendar.app.google/damhNcdv6Fghhndr7" 
             target="_blank" 
             rel="noopener noreferrer"
             className="group gradient-card rounded-2xl p-8 border border-border/50 hover:border-primary/50 hover:shadow-glow transition-all duration-500 text-center"
@@ -34,7 +34,7 @@ const ContactSection = () => {
               Boka 15 min samtal
             </h3>
             <p className="text-muted-foreground text-sm mb-4">
-              Snabbt och enkelt via Calendly
+              enkelt via google calender
             </p>
             <span className="inline-flex items-center gap-2 text-primary font-medium text-sm group-hover:gap-3 transition-all duration-300">
               Boka nu <ArrowRight className="w-4 h-4" />
