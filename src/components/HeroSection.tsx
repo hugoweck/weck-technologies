@@ -30,8 +30,8 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="animate-fade-in-up opacity-0 animation-delay-400 text-lg md:text-xl text-muted-foreground leading-relaxed mb-10 max-w-2xl mx-auto">
-            Vi hjälper skönhetskliniker och salonger att få fler bokningar utan mer personal – 
-            med en AI-receptionist som svarar, guidar och bokar 24/7.
+            Vi hjälper små till mellanstora företag att få fler bokningar utan mer personal – 
+            med en AI-chatt som svarar, guidar och bokar 24/7.
           </p>
 
           {/* CTA */}
