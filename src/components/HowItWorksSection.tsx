@@ -3,15 +3,15 @@ import { Download, Settings, Zap } from "lucide-react";
 const steps = [
   {
     number: "01",
-    icon: Download,
-    title: "Vi installerar på er hemsida",
-    description: "Utan att störa befintliga system."
-  },
-  {
-    number: "02",
     icon: Settings,
     title: "Vi anpassar efter er verksamhet",
     description: "Med era svar och rutiner."
+  },
+  {
+    number: "02",
+    icon: Download,
+    title: "Vi installerar på er hemsida",
+    description: "Utan att störa befintliga system."
   },
   {
     number: "03",
@@ -42,7 +42,7 @@ const HowItWorksSection = () => {
             <div key={index} className="relative group">
               {/* Connector line */}
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-16 left-full w-full h-[2px] bg-gradient-to-r from-primary/50 to-transparent -translate-y-1/2 z-0" />
+                <div className="hidden md:block absolute top-16 left-1/2 w-[calc(100%+2rem)] h-[2px] bg-gradient-to-r from-primary/50 to-transparent -translate-y-1/2 z-0" />
               )}
               
               <div className="relative z-10 text-center">

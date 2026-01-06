@@ -1,7 +1,7 @@
 import { CheckCircle } from "lucide-react";
 
 const audiences = [
-  "Estetiska kliniker och salonger",
+  "Små och mellanstora företag",
   "Team som missar bokningar kvällar och helger",
   "Verksamheter med onlinebokning (t.ex. BokaDirekt)",
   "Företag som vill få fler bokningar utan mer personal"
@@ -50,7 +50,7 @@ const TargetAudienceSection = () => {
                     Alltid tillgänglig
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Er AI-receptionist är alltid redo att svara, guida och boka – oavsett tid på dygnet.
+                    Er AI-chatt är alltid redo att svara, guida och boka – oavsett tid på dygnet.
                   </p>
                 </div>
               </div>

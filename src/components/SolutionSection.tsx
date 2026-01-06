@@ -3,8 +3,8 @@ import { CheckCircle, Bot, MessageCircle, Calendar, Globe } from "lucide-react";
 const solutions = [
   {
     icon: Bot,
-    title: "AI-receptionisten tar över",
-    description: "När ni inte hinner svara tar AI-receptionisten över automatiskt."
+    title: "AI-chatten tar över",
+    description: "När ni inte hinner svara tar AI-chatten över automatiskt."
   },
   {
     icon: MessageCircle,
@@ -19,7 +19,7 @@ const solutions = [
   {
     icon: Globe,
     title: "Baserat på er hemsida",
-    description: "AI-receptionisten utgår från innehållet på er hemsida. Ytterligare information kan enkelt läggas till."
+    description: "AI-chatten utgår från innehållet på er hemsida. Ytterligare information kan enkelt läggas till."
   }
 ];
 
@@ -38,7 +38,7 @@ const SolutionSection = () => {
             Så löser vi ert problem
           </h2>
           <p className="text-lg text-muted-foreground">
-            En AI-receptionist som aldrig missar en kund.
+            En AI-chatt som aldrig missar en kund.
           </p>
         </div>
 
