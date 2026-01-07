@@ -32,7 +32,7 @@ const ProblemSection = () => {
             Problemet
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Det som kostar er pengar
+            Det som kostar er pengar utan just nu
           </h2>
           <p className="text-lg text-muted-foreground">
             Resultatet är tappade kunder och bokningar trots att trafiken finns.

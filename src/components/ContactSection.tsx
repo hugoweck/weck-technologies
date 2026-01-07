@@ -31,7 +31,7 @@ const ContactSection = () => {
               <Calendar className="w-7 h-7 text-primary-foreground" />
             </div>
             <h3 className="font-display font-semibold text-xl text-foreground mb-2">
-              Boka 15 min samtal
+              Boka samtal
             </h3>
             <p className="text-muted-foreground text-sm mb-4">
               enkelt via google calender
